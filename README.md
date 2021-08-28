@@ -21,5 +21,5 @@ Included are 2 sample Blinkt! movie (BMOV) files, the short demo above and a ful
 
 ## Requirements
 
-* Working installs of `ffmpeg`, `ImageMagick`
-* Blinkt! and Pillow libraries for Python 3
+* Working installs of [ffmpeg](https://ffmpeg.org/), [ImageMagick](https://imagemagick.org/index.php)
+* [Blinkt!](https://github.com/pimoroni/blinkt) and [Pillow](https://python-pillow.org/) libraries for Python 3

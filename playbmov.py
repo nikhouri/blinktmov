@@ -17,7 +17,7 @@ if __name__ == '__main__':
 	if (len(sys.argv) >= 2): # Check if a file name is given 
 		bmovfile = sys.argv[1]
 	else:
-		print("Usage: python3 mp4tobmov.py [mp4_filename] [bmov_filename]")
+		print("Usage: playmbov.py [bmov_filename]")
 		quit()
 
 	# Import from compressed file - see: https://stackoverflow.com/a/39451012

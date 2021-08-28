@@ -18,7 +18,7 @@ if __name__ == "__main__":
       mp4file = sys.argv[1]
       bmovfile = sys.argv[2]
    else:
-      print("Usage: python3 mp4tobmov.py [mp4_filename] [bmov_filename]")
+      print("Usage: mp4tobmov.py [mp4_filename] [bmov_filename]")
       quit()
 
    # Create new folder for BMP files

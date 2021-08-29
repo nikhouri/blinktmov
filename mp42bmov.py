@@ -29,8 +29,8 @@ if __name__ == "__main__":
    # Run ffmpeg to export 8-pixel wide BMP files of each movie frame into
    # a new randomly named directory
    print('### Calling ffmpeg to export BMP files to ' + bmpdir)
-   subprocess.run(["ffmpeg", "-i", mp4file, "-r", "24", "-s", "8x1", "-vf", 
-                   "eq=saturation=2", "-f", "image2", bmpdir + "/image-%09d.bmp"])
+   subprocess.run(["ffmpeg", "-i", mp4file, "-r", "24", "-s", "8x1",
+                   "-f", "image2", bmpdir + "/image-%09d.bmp"])
 
    # Get a list of all bmp files
    bmplist = os.listdir(bmpdir)
